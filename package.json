@@ -1,0 +1,31 @@
+{
+  "name": "gachi.club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none",
+  "scripts": {
+    "build": "npx postcss css/style.css -o src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenderccc/gachiclub.git"
+  },
+  "author": "wenderccc",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/wenderccc/gachiclub/issues"
+  },
+  "homepage": "https://github.com/wenderccc/gachiclub#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.3"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "touch": "^3.1.0"
+  }
+}

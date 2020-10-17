@@ -1,0 +1,28 @@
+{
+  "css.validate": true, // Disable css built-in lint
+  "scss.validate": true,
+  "stylelint.enable": false, // Enable sytlelint
+  "stylelint.config": {
+    "extends": "stylelint-config-recommended",
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "tailwind",
+            "apply",
+            "variants",
+            "responsive",
+            "screen"
+          ]
+        }
+      ],
+      "declaration-block-trailing-semicolon": null,
+      "no-descending-specificity": null
+    }
+  },
+  "tailwindCSS.validate": true,
+  "files.associations": {
+    "*.css": "postcss"
+  }
+}
